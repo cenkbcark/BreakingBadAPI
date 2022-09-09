@@ -12,6 +12,7 @@ It is more testable and maintainable than MVC.
 ```
 
 <h2>Features</h2>
+
 ```html
 CollectionViews
 Custom views and layouts
