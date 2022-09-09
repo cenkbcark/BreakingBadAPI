@@ -13,4 +13,12 @@ It is more testable and maintainable than MVC.
 
 <h2>Features</h2>
 
+CollectionViews
+Custom views and layouts
+Modular design
+
+<h3>3rd Party Libraries</h3>
+
+I prefer KingFisher for asynchronous image downloading and caching.
+
 
