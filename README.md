@@ -1,7 +1,7 @@
 # BreakingBadAPI
 
 ```html
-It's an App which works with an API.Working with MVVM is the goal for this project.
+It's an app which works with an API.Working with MVVM is the goal for this project.
 I'm getting used to work with network classes and modular design.
 ```
 
