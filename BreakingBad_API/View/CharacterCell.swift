@@ -9,16 +9,16 @@ import UIKit
 
 class CharacterCell: UICollectionViewCell {
     
-    @IBOutlet weak var nameLbl: UILabel!
-    @IBOutlet weak var nicknameLbl: UILabel!
-    @IBOutlet weak var jobLbl: UILabel!
-    @IBOutlet weak var playerLbl: UILabel!
-    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak private var nameLbl: UILabel!
+    @IBOutlet weak private var nicknameLbl: UILabel!
+    @IBOutlet weak private var jobLbl: UILabel!
+    @IBOutlet weak private var playerLbl: UILabel!
+    @IBOutlet weak private var imageView: UIImageView!
     //
     
-    @IBOutlet weak var categoryLbl: UILabel!
-    @IBOutlet weak var statusLbl: UILabel!
-    @IBOutlet weak var birtdayLbl: UILabel!
+    @IBOutlet weak private var categoryLbl: UILabel!
+    @IBOutlet weak private var statusLbl: UILabel!
+    @IBOutlet weak private var birtdayLbl: UILabel!
     
     func setCharacter(character: CharacterViewModel){
         nameLbl.text = "Name: \(character.name)"
